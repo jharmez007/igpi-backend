@@ -31,6 +31,15 @@ exports.newContactTemplate = (contact) => `<!DOCTYPE html>
       font-size: 12px;
       color: #777;
     }
+    .button {
+			display: inline-block;
+			padding: 10px 20px;
+			color: #fff !important;
+			background-color: #0b8b68;
+			text-decoration: none;
+			border-radius: 5px;
+			margin-top: 20px;
+    }
   </style>
   </head>
   <body>
@@ -38,14 +47,14 @@ exports.newContactTemplate = (contact) => `<!DOCTYPE html>
 			<h1>Thanks for Reaching Out, ${contact?.name?.split(" ")[0]}! 💬</h1>
 			<p>Hi ${contact?.name?.split(" ")[0]},</p>
 			<p>We’ve received your message and wanted to let you know that we’ll get back to you as soon as possible.</p>
-			<br><br>
+			<br>
 			<p>We’ll typically respond within 24 hours. In the meantime, feel free to browse our website for more information about us:</p>
-			<p><a href="#" target="_blank">Visit Our Website</a></p>
+			<p><a href="https://igpi-frontend.vercel.app" target="_blank" class="button">Visit Our Website</a></p>
 			<p>Thank you for contacting us, and we’ll be in touch soon!</p>
 			<p>Warm regards,</p>
-			<p><strong>Inclusive Growth and Prosperity Initiative</strong><br><a href="#" target="_blank">Our website</a></p>
+			<p><strong>Inclusive Growth and Prosperity Initiative</strong></p>
 			<div class="footer">
-				<p>&copy; 2024 <a href="#" target="_blank">Our website</a>. All rights reserved.</p>
+				<p>&copy; 2024 <a href="https://igpi-frontend.vercel.app" target="_blank">Our website</a>. All rights reserved.</p>
 			</div>
 		</div>
   </body>
