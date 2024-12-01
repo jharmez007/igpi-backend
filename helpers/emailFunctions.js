@@ -4,7 +4,7 @@ const { newContactTemplate } = require("./contactTemplate");
 
 exports.sendNewUserEmail = (user) => {
   if (user) {
-    const from = `James from IGPI <${process.env.MAIL_ID}>`;
+    const from = `IGPI <${process.env.MAIL_ID}>`;
     const to = user?.email;
     const subject = "✅ Welcome to IGPI";
     const html = newUserTemplate(user);
@@ -15,7 +15,7 @@ exports.sendNewUserEmail = (user) => {
 
 exports.sendNewSubscribeEmail = (subscribe) => {
   if (subscribe) {
-    const from = `James from IGPI <${process.env.MAIL_ID}>`;
+    const from = `Chinelo from IGPI <${process.env.MAIL_ID}>`;
     const to = subscribe?.email;
     const subject = "✅ Welcome to IGPI";
     const html = newSubscribeTemplate(subscribe);
@@ -26,7 +26,7 @@ exports.sendNewSubscribeEmail = (subscribe) => {
 
 exports.sendNewContactEmail = (contact) => {
   if (contact) {
-    const from = `James from IGPI <${process.env.MAIL_ID}>`;
+    const from = `Chinelo from IGPI <${process.env.MAIL_ID}>`;
     const to = contact?.email;
     const subject = "✅ Welcome to IGPI";
     const html = newContactTemplate(contact);

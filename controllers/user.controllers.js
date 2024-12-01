@@ -16,7 +16,6 @@ const registerUser = async (req, res) => {
 
   const passportPhoto = req.file;
 
-  console.log("passportPhoto", passportPhoto);
 
   if (!passportPhoto) {
     return res

@@ -21,11 +21,13 @@ const userRouter = require("./routes/user.routes");
 const contactRouter = require("./routes/contact.routes");
 const subscribeRouter = require("./routes/subscribe.routes");
 const paymentRouter = require("./routes/payment.routes");
+const wakeRouter = require("./routes/wake.routes");
 
 app.use("/api/user", userRouter);
 app.use("/api/contact", contactRouter);
 app.use("/api/subscribe", subscribeRouter);
 app.use("/api/payment", paymentRouter);
+app.use("/api/wake", wakeRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running  at PORT ${PORT}`);
