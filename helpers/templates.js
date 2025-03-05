@@ -94,7 +94,7 @@ exports.newUserTemplate = (user) => `<!DOCTYPE html>
             bring help and hope where they are needed most.
           </li>
         </ul>
-        <a href="http://www.igpinitiative.org/" target="_blank" class="button">Our website</a>
+        <a href="https://www.igpinitiative.org/" target="_blank" class="button">Our website</a>
       </div>
       <div class="footer">
         <p>Thank you for choosing our IGPI.</p>

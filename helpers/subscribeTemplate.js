@@ -56,10 +56,10 @@ exports.newSubscribeTemplate = (subscribe) => `<!DOCTYPE html>
 			<p>Feel free to reply to this email if you have any questions or suggestions—we’d love to hear from you!</p>
 			<p>Stay tuned for our first update coming your way soon.</p>
 			<p>Warm regards,</p>
-			<p><strong>Inclusive Growth and Prosperity Initiative</strong><br><a href="http://www.igpinitiative.org/" target="_blank" class="button">Visit Our website</a></p>
+			<p><strong>Inclusive Growth and Prosperity Initiative</strong><br><a href="https://www.igpinitiative.org/" target="_blank" class="button">Visit Our website</a></p>
 			<p>P.S. Make sure to follow us on <a href="https://www.tiktok.com/@igpi4all?_t=8penjOB9fDK&_r=1">social media</a> for more exciting updates!</p>
 			<div class="footer">
-			<p>&copy; 2024 <a href="http://www.igpinitiative.org/" target="_blank">Our website</a> All rights reserved.</p>
+			<p>&copy; 2024 <a href="https://www.igpinitiative.org/" target="_blank">Our website</a> All rights reserved.</p>
 			</div>
     </div>
   </body>

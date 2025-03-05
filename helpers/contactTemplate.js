@@ -49,12 +49,12 @@ exports.newContactTemplate = (contact) => `<!DOCTYPE html>
 			<p>We’ve received your message and wanted to let you know that we’ll get back to you as soon as possible.</p>
 			<br>
 			<p>We’ll typically respond within 24 hours. In the meantime, feel free to browse our website for more information about us:</p>
-			<p><a href="http://www.igpinitiative.org/" target="_blank" class="button">Visit Our Website</a></p>
+			<p><a href="https://www.igpinitiative.org/" target="_blank" class="button">Visit Our Website</a></p>
 			<p>Thank you for contacting us, and we’ll be in touch soon!</p>
 			<p>Warm regards,</p>
 			<p><strong>Inclusive Growth and Prosperity Initiative</strong></p>
 			<div class="footer">
-				<p>&copy; 2024 <a href="http://www.igpinitiative.org/" target="_blank">Our website</a>. All rights reserved.</p>
+				<p>&copy; 2024 <a href="https://www.igpinitiative.org/" target="_blank">Our website</a>. All rights reserved.</p>
 			</div>
 		</div>
   </body>
